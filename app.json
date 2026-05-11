@@ -1,0 +1,66 @@
+{
+  "name": "SLS Link Share Bot",
+  "description": "Advanced Link Sharing Bot with ForceSub and Hinglish UI created for Starlight Animes.",
+  "keywords": [
+    "telegram",
+    "links",
+    "sharing",
+    "forcesub",
+    "starlight",
+    "sls"
+  ],
+  "repository": "https://github.com/redopxxxx-create/SLSLINKSHARE-BOT",
+  "logo": "https://ibb.co/FgPVtzw",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Bot token @Botfather se lein.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Aapka Telegram User ID (Numeric).",
+      "value": "7977515080"
+    },
+    "APP_ID":{
+      "description": "App ID (my.telegram.org se).",
+      "value": "25436585"
+    },
+    "API_HASH":{
+      "description": "API Hash (my.telegram.org se).",
+      "value": "294890dbd5c747557ee3205daaefc922"
+    },
+    "DATABASE_URL": {
+      "description": "MongoDB URI yahan paste karein.",
+      "value": ""
+    },
+    "DATABASE_NAME":{
+      "description": "Database ka naam (e.g. SLSLINKDB).",
+      "value": "SLSLINKDB"
+    },
+    "FORCE_SUB_CHANNEL": {
+      "description": "Channel username jisme user ko join karwana hai (Bina @ ke).",
+      "value": "Starlight_Animes",
+      "required": true
+    },
+    "DATABASE_CHANNEL": {
+      "description": "Channel ID jahan files store hongi (e.g. -100...).",
+      "value": "-1002903445682",
+      "required": true
+    },
+    "ADMINS": {
+      "description": "Admin IDs space dekar (e.g. 7977515080 7738104912).",
+      "value": "7977515080 7738104912",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
