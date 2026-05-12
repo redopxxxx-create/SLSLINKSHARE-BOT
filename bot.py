@@ -63,8 +63,9 @@ class Bot(Client):
 
 # Global cancel flag (Original)
 is_canceled = False
-cancel_lock = asyncio.Lock()
 
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
 if __name__ == "__main__":
     # Bot run logic
     Bot().run()
