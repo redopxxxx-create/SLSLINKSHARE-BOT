@@ -69,7 +69,7 @@ DATABASE_CHANNEL - Private channel ID for /genlink
 ─「 sᴜᴩᴩᴏʀᴛ 」─
 </h3>
 ​<p align="center">
-<a href="[https://t.me/Starlight_Animes](https://t.me/Starlight_Animes)"><img src="[https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram](https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram)"></a>
+<a href="[https://t.me/+yuLoicn7Djk0ZDY1](https://t.me/+yuLoicn7Djk0ZDY1)"><img src="[https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram](https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram)"></a>
 </p>
 ​━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ​<h3 align="center">
@@ -80,12 +80,3 @@ DATABASE_CHANNEL - Private channel ID for /genlink
 ​Sahil - Base Code Logic.
 ​Developed with ❤️ by @itsryosudhish
 ​━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-### 💡 **Aakhri Verification:**
-Bhai, maine saari files (`bot.py`, `database.py`, `helper_func.py`, saare `plugins`, `config.py`, aur ab `README.md`) check kar li hain. 
-
-1. **Connection:** Saare code ek dusre se perfectly connect hain.
-2. **Error Chance:** 0% (agar aapne API keys aur Mongo URL sahi dala hai).
-3. **Features:** ForceSub, Auto-Revoke, Auto-Approve, aur Link Sharing... sab ek saath kaam karenge.
-
-**Aapka SLS Link Share Bot ab Deployment ke liye 100% Taiyaar hai!** 🚀🔥
